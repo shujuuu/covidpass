@@ -9,7 +9,7 @@ export function Alert() {
   }
 
   return(
-    <div id="alert" style={{"display": "none"}} className="bg-red-100 border border-red-400 text-red-700 px-4 py-3 mt-5 rounded relative" role="alert">
+    <div id="alert" style={{"display": "default"}} className="bg-red-100 border border-red-400 text-red-700 px-4 py-3 mt-5 rounded relative" role="alert">
       <strong className="font-bold pr-2" id="heading"/>
       <span className="block sm:inline" id="message"/>
       <span className="absolute top-0 bottom-0 right-0 px-4 py-3" onClick={close}>
