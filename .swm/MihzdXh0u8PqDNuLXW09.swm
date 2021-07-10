@@ -9,6 +9,193 @@
         {
             "type": "snippet",
             "lines": [
+                "         <Link href=\"/\">",
+                "             <a className=\"flex flex-row items-center p-3 justify-center space-x-1\">",
+                "                 <svg className=\"fill-current\" xmlns=\"http://www.w3.org/2000/svg\" enableBackground=\"new 0 0 24 24\"",
+                "*                     height=\"48px\"",
+                "                      viewBox=\"0 0 24 24\" width=\"48px\" fill=\"#000000\">",
+                "                     <g>",
+                "                         <path d=\"M0,0h24v24H0V0z\" fill=\"none\"/>"
+            ],
+            "firstLineNumber": 7,
+            "path": "components/Logo.js",
+            "comments": []
+        },
+        {
+            "type": "snippet",
+            "lines": [
+                "                     </g>",
+                "                 </svg>",
+                "                 <h1 className=\"text-3xl font-bold\">",
+                "*                    CovidPass",
+                "                 </h1>",
+                "             </a>",
+                "         </Link>"
+            ],
+            "firstLineNumber": 18,
+            "path": "components/Logo.js",
+            "comments": []
+        },
+        {
+            "type": "snippet",
+            "lines": [
+                "   return (",
+                "     <div className=\"md:w-2/3 xl:w-2/5 md:mx-auto flex flex-col min-h-screen justify-center px-5 py-12\">",
+                "       <Head>",
+                "*        <title>CovidPass</title>",
+                "         <link rel=\"icon\" href=\"/favicon.ico\" />",
+                "       </Head>",
+                "       <div>"
+            ],
+            "firstLineNumber": 8,
+            "path": "components/Page.js",
+            "comments": []
+        },
+        {
+            "type": "snippet",
+            "lines": [
+                "   }",
+                " ",
+                "   return(",
+                "*    <div id=\"alert\" style={{\"display\": \"none\"}} className=\"bg-red-100 border border-red-400 text-red-700 px-4 py-3 mt-5 rounded relative\" role=\"alert\">",
+                "       <strong className=\"font-bold pr-2\" id=\"heading\"/>",
+                "       <span className=\"block sm:inline\" id=\"message\"/>",
+                "       <span className=\"absolute top-0 bottom-0 right-0 px-4 py-3\" onClick={close}>"
+            ],
+            "firstLineNumber": 9,
+            "path": "components/Alert.js",
+            "comments": []
+        },
+        {
+            "type": "snippet",
+            "lines": [
+                "                             {step}",
+                "                         </p>",
+                "                     </div>",
+                "*                    <div className=\"ml-3 font-bold text-xl\">",
+                "                         {heading}",
+                "                     </div>",
+                "                 </div>"
+            ],
+            "firstLineNumber": 11,
+            "path": "components/Card.js",
+            "comments": []
+        },
+        {
+            "type": "snippet",
+            "lines": [
+                "           <p>",
+                "             Our offer contains links to external websites of third parties, on whose contents we have no influence. Therefore, we cannot assume any liability for these external contents. The respective provider or operator of the sites is always responsible for the content of the linked sites. The linked pages were checked for possible legal violations at the time of linking. Illegal contents were not recognizable at the time of linking. However, a permanent control of the contents of the linked pages is not reasonable without concrete evidence of a violation of the law. If we become aware of any infringements, we will remove such links immediately.",
+                "           </p>",
+                "*          <p className=\"font-bold\">Credits</p>",
+                "           <p>",
+                "             With excerpts from: https://www.e-recht24.de/impressum-generator.html",
+                "             Translated with www.DeepL.com/Translator (free version)"
+            ],
+            "firstLineNumber": 32,
+            "path": "pages/imprint.js",
+            "comments": []
+        },
+        {
+            "type": "snippet",
+            "lines": [
+                "           <p>",
+                "             Our privacy policy is based on the terms used by the European legislator for the adoption of the General Data Protection Regulation (GDPR).",
+                "           </p>",
+                "*          <p className=\"font-bold\">General information</p>",
+                "           <div className=\"px-4\">",
+                "             <ul className=\"list-disc\">",
+                "               <li>"
+            ],
+            "firstLineNumber": 9,
+            "path": "pages/privacy.js",
+            "comments": []
+        },
+        {
+            "type": "snippet",
+            "lines": [
+                "             First, the following steps happen locally in your browser:",
+                "           </p>",
+                "           <div className=\"px-4\">",
+                "*            <ul className=\"list-disc\">",
+                "*              <li>Recognizing and extracting the QR code data from your selected certificate</li>",
+                "*              <li>Decoding your personal and health-related data from the QR code payload</li>",
+                "*              <li>Assembling an incomplete pass file out of your data</li>",
+                "*              <li>Generating a file containing hashes of the data stored in the pass file</li>",
+                "*              <li>Sending only the file containing the hashes to our server</li>",
+                "*            </ul>",
+                "           </div>",
+                "           <p>",
+                "             Second, the following steps happen on our server:"
+            ],
+            "firstLineNumber": 55,
+            "path": "pages/privacy.js",
+            "comments": []
+        },
+        {
+            "type": "snippet",
+            "lines": [
+                "             Processed personal data contained in the QR code:",
+                "           </p>",
+                "           <div className=\"px-4\">",
+                "*            <ul className=\"list-disc\">",
+                "*              <li>Your first and last name</li>",
+                "*              <li>Your date of birth</li>",
+                "*            </ul>",
+                "           </div>",
+                "           <p>",
+                "             For each vaccination certificate contained in the QR code, the following data is processed:"
+            ],
+            "firstLineNumber": 90,
+            "path": "pages/privacy.js",
+            "comments": []
+        },
+        {
+            "type": "snippet",
+            "lines": [
+                "           </div>",
+                "           <p className=\"font-bold\">Third parties linked</p>",
+                "           <div className=\"px-4\">",
+                "*            <ul className=\"list-disc\">",
+                "*              <li>",
+                "*                GitHub: <a href=\"https://docs.github.com/en/github/site-policy/github-privacy-statement\" className=\"underline\">Privacy Policy</a>",
+                "*              </li>",
+                "*              <li>",
+                "*                PayPal: <a href=\"https://www.paypal.com/de/webapps/mpp/ua/privacy-full?locale.x=en_EN\" className=\"underline\">Privacy Policy</a>",
+                "*              </li>",
+                "*              <li>",
+                "*                Gmail/Google: <a href=\"https://policies.google.com/privacy?hl=en-US\" className=\"underline\">Privacy Policy</a>",
+                "*              </li>",
+                "*              <li>",
+                "*                Apple may sync your passes via iCloud: <a href=\"https://www.apple.com/legal/privacy/en-ww/\" className=\"underline\">Privacy Policy</a>",
+                "*              </li>",
+                "             </ul>",
+                "           </div>",
+                "         </div>"
+            ],
+            "firstLineNumber": 179,
+            "path": "pages/privacy.js",
+            "comments": []
+        },
+        {
+            "type": "snippet",
+            "lines": [
+                " export function Alert() {",
+                " ",
+                "   const close = function() {",
+                "*    const alert = document.getElementById('alert')",
+                "*    alert.setAttribute('style', 'display: none;')",
+                "   }",
+                " ",
+                "   return("
+            ],
+            "firstLineNumber": 4,
+            "path": "components/Alert.js",
+            "comments": []
+        },
+        {
+            "type": "snippet",
+            "lines": [
                 "       <Card step=\"§\" heading=\"Imprint\" content={",
                 "         <div className=\"space-y-2\">",
                 "           <p className=\"font-bold\">Information according to § 5 TMG</p>",
@@ -61,7 +248,12 @@
     "meta": {
         "app_version": "0.4.9-1",
         "file_blobs": {
+            "components/Logo.js": "76dc5a35df41daaf7182c180022c8d4b609a9a98",
+            "components/Page.js": "22a75bf3f868dd7d8120b78cace69bb6ac4c4935",
+            "components/Alert.js": "a7bfad37bfe0d6913c1317b3ea344a6c67fe3404",
+            "components/Card.js": "059f250a03ba3ddd49076d27166735c29aa8d86c",
             "pages/imprint.js": "d17f7f9c08ad968492ac49f64b46e7727b88b9b8",
+            "pages/privacy.js": "0029521450579865fa88d4b5decfe3f9b659479f",
             "package-lock.json": "9739ded7b028e63fda340507a6da0ae37fdc7821"
         }
     }
