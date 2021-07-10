@@ -7,6 +7,10 @@
             "text": "All other repository does not work"
         },
         {
+            "type": "text",
+            "text": "let's try changing the[[sym-text:height(5a0a0115-4f8b-4bc8-9606-64ec3bbe51fd)]] from component/Logo.js change to 32px.\n\nalso change the Headline on [[sym:./components/Logo.js(67f8093b-7e4e-4316-8a1d-6676c5ab76e8)]] to [[sym-text:CovidPass(056b1769-57c8-47b7-b6bf-b15e9c71a1c0)]] to VaccinePass.\n\nthis also applies to the title in file [[sym:./components/Page.js(a0ad35cc-a726-48f9-a127-a7d88170b7d1)]] [[sym-text:title(afd4cee2-abdb-4c32-ab07-da78f336a60e)]] \\`\n\nthen show [[sym-text:display(c9b1f988-59b7-4e80-80e1-927fa964e89e)]] from display [[sym-text:none(f66abaa5-151f-447c-af29-cdc00ff0bfab)]] \\` to \"show\"."
+        },
+        {
             "type": "snippet",
             "lines": [
                 "         <Link href=\"/\">",
@@ -243,7 +247,83 @@
             "comments": []
         }
     ],
-    "symbols": {},
+    "symbols": {
+        "5a0a0115-4f8b-4bc8-9606-64ec3bbe51fd": {
+            "symbol": "5a0a0115-4f8b-4bc8-9606-64ec3bbe51fd",
+            "path": "components/Logo.js",
+            "text": "height",
+            "lineNumber": 10,
+            "lineData": "                     height=\"48px\"",
+            "wordIndex": {
+                "start": 1,
+                "end": 1
+            },
+            "fileBlob": "76dc5a35df41daaf7182c180022c8d4b609a9a98",
+            "type": "generic_text"
+        },
+        "67f8093b-7e4e-4316-8a1d-6676c5ab76e8": {
+            "type": "path",
+            "text": "components/Logo.js",
+            "path": "components/Logo.js"
+        },
+        "056b1769-57c8-47b7-b6bf-b15e9c71a1c0": {
+            "symbol": "056b1769-57c8-47b7-b6bf-b15e9c71a1c0",
+            "path": "components/Logo.js",
+            "text": "CovidPass",
+            "lineNumber": 21,
+            "lineData": "                    CovidPass",
+            "wordIndex": {
+                "start": 1,
+                "end": 1
+            },
+            "fileBlob": "76dc5a35df41daaf7182c180022c8d4b609a9a98",
+            "type": "generic_text"
+        },
+        "c9b1f988-59b7-4e80-80e1-927fa964e89e": {
+            "symbol": "c9b1f988-59b7-4e80-80e1-927fa964e89e",
+            "path": "components/Alert.js",
+            "text": "display",
+            "lineNumber": 12,
+            "lineData": "    <div id=\"alert\" style={{\"display\": \"none\"}} className=\"bg-red-100 border border-red-400 text-red-700 px-4 py-3 mt-5 rounded relative\" role=\"alert\">",
+            "wordIndex": {
+                "start": 15,
+                "end": 15
+            },
+            "fileBlob": "a7bfad37bfe0d6913c1317b3ea344a6c67fe3404",
+            "type": "generic_text"
+        },
+        "f66abaa5-151f-447c-af29-cdc00ff0bfab": {
+            "symbol": "f66abaa5-151f-447c-af29-cdc00ff0bfab",
+            "path": "components/Logo.js",
+            "text": "none",
+            "lineNumber": 13,
+            "lineData": "                        <path d=\"M0,0h24v24H0V0z\" fill=\"none\"/>",
+            "wordIndex": {
+                "start": 15,
+                "end": 15
+            },
+            "fileBlob": "76dc5a35df41daaf7182c180022c8d4b609a9a98",
+            "type": "generic_text"
+        },
+        "a0ad35cc-a726-48f9-a127-a7d88170b7d1": {
+            "type": "path",
+            "text": "components/Page.js",
+            "path": "components/Page.js"
+        },
+        "afd4cee2-abdb-4c32-ab07-da78f336a60e": {
+            "symbol": "afd4cee2-abdb-4c32-ab07-da78f336a60e",
+            "path": "components/Page.js",
+            "text": "title",
+            "lineNumber": 11,
+            "lineData": "        <title>CovidPass</title>",
+            "wordIndex": {
+                "start": 2,
+                "end": 2
+            },
+            "fileBlob": "22a75bf3f868dd7d8120b78cace69bb6ac4c4935",
+            "type": "generic_text"
+        }
+    },
     "file_version": "2.0.1",
     "meta": {
         "app_version": "0.4.9-1",
