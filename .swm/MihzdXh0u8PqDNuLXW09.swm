@@ -4,7 +4,7 @@
     "content": [
         {
             "type": "text",
-            "text": "All other repository does not work"
+            "text": "All other repository does not work.  \n  \nIf edit files from VS Code, does not reflect changes.  \nIf edit and commit files, then changes should be seen?"
         },
         {
             "type": "text",
