@@ -7,7 +7,7 @@ function Logo() {
         <Link href="/">
             <a className="flex flex-row items-center p-3 justify-center space-x-1">
                 <svg className="fill-current" xmlns="http://www.w3.org/2000/svg" enableBackground="new 0 0 24 24"
-                     height="32px"
+                     height="32px" width="20px"
                      viewBox="0 0 24 24" width="48px" fill="#000000">
                     <g>
                         <path d="M0,0h24v24H0V0z" fill="none"/>
@@ -18,7 +18,14 @@ function Logo() {
                     </g>
                 </svg>
                 <h1 className="text-3xl font-bold">
-                    CovidPass
+                    VaccinePass
+
+                    <ul>
+                        <li>pfizer</li>
+                        <li>moderna</li>
+                        <li>az</li>
+                        <li>j&j</li>
+                    </ul>
                 </h1>
             </a>
         </Link>
