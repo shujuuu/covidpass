@@ -39,7 +39,7 @@
         },
         {
             "type": "text",
-            "text": "**Anatomy:**\n\n1\\. Supporting illustration (optional)  \n2\\. Container  \n3\\. Text  \n4\\. Buttons"
+            "text": "**Anatomy:**\n\n*   Supporting illustration (optional)\n    \n*   Container\n    \n*   Text\n    \n*   Buttons"
         },
         {
             "type": "text",
