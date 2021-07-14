@@ -4,11 +4,65 @@
     "content": [
         {
             "type": "text",
-            "text": "All other repository does not work.  \n  \nIf edit files from VS Code, does not reflect changes.  \nIf edit and commit files, then changes should be seen?"
+            "text": "Alert\n-----\n\nIf edit files from VS Code, does not reflect changes.  \nIf edit and commit files, then changes should be seen?"
+        },
+        {
+            "type": "snippet",
+            "lines": [
+                " export function Alert() {",
+                " ",
+                "   const close = function() {",
+                "*    const alert = document.getElementById('alert')",
+                "*    alert.setAttribute('style', 'display: none;')",
+                "   }",
+                " ",
+                "   return("
+            ],
+            "firstLineNumber": 4,
+            "path": "components/Alert.js",
+            "comments": []
+        },
+        {
+            "type": "snippet",
+            "lines": [
+                "   }",
+                " ",
+                "   return(",
+                "*    <div id=\"alert\" style={{\"display\": \"default\"}} className=\"bg-red-100 border border-red-400 text-red-700 px-4 py-3 mt-5 rounded relative\" role=\"alert\">",
+                "       <strong className=\"font-bold pr-2\" id=\"heading\"/>",
+                "       <span className=\"block sm:inline\" id=\"message\"/>",
+                "       <span className=\"absolute top-0 bottom-0 right-0 px-4 py-3\" onClick={close}>"
+            ],
+            "firstLineNumber": 9,
+            "path": "components/Alert.js",
+            "comments": []
         },
         {
             "type": "text",
-            "text": "let's try changing the[[sym-text:height(5a0a0115-4f8b-4bc8-9606-64ec3bbe51fd)]] from component/Logo.js change to 32px.\n\nalso change the Headline on [[sym:./components/Logo.js(67f8093b-7e4e-4316-8a1d-6676c5ab76e8)]] to [[sym-text:CovidPass(056b1769-57c8-47b7-b6bf-b15e9c71a1c0)]] to VaccinePass.\n\nthis also applies to the title in file [[sym:./components/Page.js(a0ad35cc-a726-48f9-a127-a7d88170b7d1)]] [[sym-text:title(afd4cee2-abdb-4c32-ab07-da78f336a60e)]] \\`\n\nthen show [[sym-text:display(c9b1f988-59b7-4e80-80e1-927fa964e89e)]] from display [[sym-text:none(f66abaa5-151f-447c-af29-cdc00ff0bfab)]] \\` to \"show\"."
+            "text": "Card\n----\n\nlet's try changing the[[sym-text:height(5a0a0115-4f8b-4bc8-9606-64ec3bbe51fd)]] from component/Logo.js change to 32px."
+        },
+        {
+            "type": "text",
+            "text": "also change the Headline on [[sym:./components/Logo.js(67f8093b-7e4e-4316-8a1d-6676c5ab76e8)]] to [[sym-text:VaccinePass(056b1769-57c8-47b7-b6bf-b15e9c71a1c0)]] to VaccinePass.\n\nthis also applies to the title in file [[sym:./components/Page.js(a0ad35cc-a726-48f9-a127-a7d88170b7d1)]] [[sym-text:title(afd4cee2-abdb-4c32-ab07-da78f336a60e)]] \\`\n\nthen show [[sym-text:display(c9b1f988-59b7-4e80-80e1-927fa964e89e)]] from display [[sym-text:none(f66abaa5-151f-447c-af29-cdc00ff0bfab)]] \\` to \"show\"."
+        },
+        {
+            "type": "snippet",
+            "lines": [
+                "                             {step}",
+                "                         </p>",
+                "                     </div>",
+                "*                    <div className=\"ml-3 font-bold text-xl\">",
+                "                         {heading}",
+                "                     </div>",
+                "                 </div>"
+            ],
+            "firstLineNumber": 11,
+            "path": "components/Card.js",
+            "comments": []
+        },
+        {
+            "type": "text",
+            "text": "Logo\n----"
         },
         {
             "type": "snippet",
@@ -41,6 +95,10 @@
             "comments": []
         },
         {
+            "type": "text",
+            "text": "Page\n----"
+        },
+        {
             "type": "snippet",
             "lines": [
                 "   return (",
@@ -54,213 +112,9 @@
             "firstLineNumber": 8,
             "path": "components/Page.js",
             "comments": []
-        },
-        {
-            "type": "snippet",
-            "lines": [
-                "   }",
-                " ",
-                "   return(",
-                "*    <div id=\"alert\" style={{\"display\": \"default\"}} className=\"bg-red-100 border border-red-400 text-red-700 px-4 py-3 mt-5 rounded relative\" role=\"alert\">",
-                "       <strong className=\"font-bold pr-2\" id=\"heading\"/>",
-                "       <span className=\"block sm:inline\" id=\"message\"/>",
-                "       <span className=\"absolute top-0 bottom-0 right-0 px-4 py-3\" onClick={close}>"
-            ],
-            "firstLineNumber": 9,
-            "path": "components/Alert.js",
-            "comments": []
-        },
-        {
-            "type": "snippet",
-            "lines": [
-                "                             {step}",
-                "                         </p>",
-                "                     </div>",
-                "*                    <div className=\"ml-3 font-bold text-xl\">",
-                "                         {heading}",
-                "                     </div>",
-                "                 </div>"
-            ],
-            "firstLineNumber": 11,
-            "path": "components/Card.js",
-            "comments": []
-        },
-        {
-            "type": "snippet",
-            "lines": [
-                "           <p>",
-                "             Our offer contains links to external websites of third parties, on whose contents we have no influence. Therefore, we cannot assume any liability for these external contents. The respective provider or operator of the sites is always responsible for the content of the linked sites. The linked pages were checked for possible legal violations at the time of linking. Illegal contents were not recognizable at the time of linking. However, a permanent control of the contents of the linked pages is not reasonable without concrete evidence of a violation of the law. If we become aware of any infringements, we will remove such links immediately.",
-                "           </p>",
-                "*          <p className=\"font-bold\">Credits</p>",
-                "           <p>",
-                "             With excerpts from: https://www.e-recht24.de/impressum-generator.html",
-                "             Translated with www.DeepL.com/Translator (free version)"
-            ],
-            "firstLineNumber": 32,
-            "path": "pages/imprint-change-file-test.js",
-            "comments": []
-        },
-        {
-            "type": "snippet",
-            "lines": [
-                "           <p>",
-                "             Our privacy policy is based on the terms used by the European legislator for the adoption of the General Data Protection Regulation (GDPR).",
-                "           </p>",
-                "*          <p className=\"font-bold\">General information</p>",
-                "           <div className=\"px-4\">",
-                "             <ul className=\"list-disc\">",
-                "               <li>"
-            ],
-            "firstLineNumber": 9,
-            "path": "pages/privacy.js",
-            "comments": []
-        },
-        {
-            "type": "snippet",
-            "lines": [
-                "             First, the following steps happen locally in your browser:",
-                "           </p>",
-                "           <div className=\"px-4\">",
-                "*            <ul className=\"list-disc\">",
-                "*              <li>Recognizing and extracting the QR code data from your selected certificate</li>",
-                "*              <li>Decoding your personal and health-related data from the QR code payload</li>",
-                "*              <li>Assembling an incomplete pass file out of your data</li>",
-                "*              <li>Generating a file containing hashes of the data stored in the pass file</li>",
-                "*              <li>Sending only the file containing the hashes to our server</li>",
-                "*            </ul>",
-                "           </div>",
-                "           <p>",
-                "             Second, the following steps happen on our server:"
-            ],
-            "firstLineNumber": 55,
-            "path": "pages/privacy.js",
-            "comments": []
-        },
-        {
-            "type": "snippet",
-            "lines": [
-                "             Processed personal data contained in the QR code:",
-                "           </p>",
-                "           <div className=\"px-4\">",
-                "*            <ul className=\"list-disc\">",
-                "*              <li>Your first and last name</li>",
-                "*              <li>Your date of birth</li>",
-                "*            </ul>",
-                "           </div>",
-                "           <p>",
-                "             For each vaccination certificate contained in the QR code, the following data is processed:"
-            ],
-            "firstLineNumber": 90,
-            "path": "pages/privacy.js",
-            "comments": []
-        },
-        {
-            "type": "snippet",
-            "lines": [
-                "           </div>",
-                "           <p className=\"font-bold\">Third parties linked</p>",
-                "           <div className=\"px-4\">",
-                "*            <ul className=\"list-disc\">",
-                "*              <li>",
-                "*                GitHub: <a href=\"https://docs.github.com/en/github/site-policy/github-privacy-statement\" className=\"underline\">Privacy Policy</a>",
-                "*              </li>",
-                "*              <li>",
-                "*                PayPal: <a href=\"https://www.paypal.com/de/webapps/mpp/ua/privacy-full?locale.x=en_EN\" className=\"underline\">Privacy Policy</a>",
-                "*              </li>",
-                "*              <li>",
-                "*                Gmail/Google: <a href=\"https://policies.google.com/privacy?hl=en-US\" className=\"underline\">Privacy Policy</a>",
-                "*              </li>",
-                "*              <li>",
-                "*                Apple may sync your passes via iCloud: <a href=\"https://www.apple.com/legal/privacy/en-ww/\" className=\"underline\">Privacy Policy</a>",
-                "*              </li>",
-                "             </ul>",
-                "           </div>",
-                "         </div>"
-            ],
-            "firstLineNumber": 179,
-            "path": "pages/privacy.js",
-            "comments": []
-        },
-        {
-            "type": "snippet",
-            "lines": [
-                " export function Alert() {",
-                " ",
-                "   const close = function() {",
-                "*    const alert = document.getElementById('alert')",
-                "*    alert.setAttribute('style', 'display: none;')",
-                "   }",
-                " ",
-                "   return("
-            ],
-            "firstLineNumber": 4,
-            "path": "components/Alert.js",
-            "comments": []
-        },
-        {
-            "type": "snippet",
-            "lines": [
-                "       <Card step=\"§\" heading=\"Imprint\" content={",
-                "         <div className=\"space-y-2\">",
-                "           <p className=\"font-bold\">Information according to § 5 TMG</p>",
-                "*          <p>",
-                "*            Marvin Sextro<br />",
-                "*            Wilhelm-Busch-Str. 8A<br />",
-                "*            30167 Hannover<br />",
-                "*          </p>",
-                "           <p className=\"font-bold\">Contact</p>",
-                "           <p>",
-                "             marvin.sextro@gmail.com"
-            ],
-            "firstLineNumber": 7,
-            "path": "pages/imprint-change-file-test.js",
-            "comments": []
-        },
-        {
-            "type": "snippet",
-            "lines": [
-                "           <p>",
-                "           As a service provider, we are responsible for our own content on these pages in accordance with § 7 paragraph 1 TMG under the general laws. According to §§ 8 to 10 TMG, we are not obligated to monitor transmitted or stored information or to investigate circumstances that indicate illegal activity. Obligations to remove or block the use of information under the general laws remain unaffected. However, liability in this regard is only possible from the point in time at which a concrete infringement of the law becomes known. If we become aware of any such infringements, we will remove the relevant content immediately.",
-                "           </p>",
-                "*          <p className=\"font-bold\">Liability for links</p>",
-                "           <p>",
-                "             Our offer contains links to external websites of third parties, on whose contents we have no influence. Therefore, we cannot assume any liability for these external contents. The respective provider or operator of the sites is always responsible for the content of the linked sites. The linked pages were checked for possible legal violations at the time of linking. Illegal contents were not recognizable at the time of linking. However, a permanent control of the contents of the linked pages is not reasonable without concrete evidence of a violation of the law. If we become aware of any infringements, we will remove such links immediately.",
-                "           </p>"
-            ],
-            "firstLineNumber": 28,
-            "path": "pages/imprint-change-file-test.js",
-            "comments": []
-        },
-        {
-            "type": "snippet",
-            "lines": [
-                "       \"resolved\": \"https://registry.npmjs.org/@babel/code-frame/-/code-frame-7.12.11.tgz\",",
-                "       \"integrity\": \"sha512-Zt1yodBx1UcyiePMSkWnU4hPqhwq7hGi2nFL1LeA3EUl+q2LQx16MISgJ0+z7dnmgvP9QtIleuETGOiOH1RcIw==\",",
-                "       \"dependencies\": {",
-                "*        \"@babel/highlight\": \"^7.10.4\"",
-                "       }",
-                "     },",
-                "     \"node_modules/@babel/helper-validator-identifier\": {"
-            ],
-            "firstLineNumber": 36,
-            "path": "package-lock.json",
-            "comments": []
         }
     ],
     "symbols": {
-        "5a0a0115-4f8b-4bc8-9606-64ec3bbe51fd": {
-            "symbol": "5a0a0115-4f8b-4bc8-9606-64ec3bbe51fd",
-            "path": "components/Logo.js",
-            "text": "height",
-            "lineNumber": 10,
-            "lineData": "                     height=\"32px\" width=\"20px\"",
-            "wordIndex": {
-                "start": 1,
-                "end": 1
-            },
-            "fileBlob": "c8ac236a70a4f3909c2798be2cffcdd1cef6f7de",
-            "type": "generic_text"
-        },
         "67f8093b-7e4e-4316-8a1d-6676c5ab76e8": {
             "type": "path",
             "text": "components/Logo.js",
@@ -328,13 +182,10 @@
     "meta": {
         "app_version": "0.5.0-0",
         "file_blobs": {
-            "components/Logo.js": "c8ac236a70a4f3909c2798be2cffcdd1cef6f7de",
-            "components/Page.js": "22a75bf3f868dd7d8120b78cace69bb6ac4c4935",
             "components/Alert.js": "5183fbe95e16a9fa27c27bab76ebbcdd96cbbdcf",
             "components/Card.js": "059f250a03ba3ddd49076d27166735c29aa8d86c",
-            "pages/imprint-change-file-test.js": "d17f7f9c08ad968492ac49f64b46e7727b88b9b8",
-            "pages/privacy.js": "0029521450579865fa88d4b5decfe3f9b659479f",
-            "package-lock.json": "9739ded7b028e63fda340507a6da0ae37fdc7821"
+            "components/Logo.js": "c8ac236a70a4f3909c2798be2cffcdd1cef6f7de",
+            "components/Page.js": "22a75bf3f868dd7d8120b78cace69bb6ac4c4935"
         }
     }
 }
