@@ -4,7 +4,7 @@
     "content": [
         {
             "type": "text",
-            "text": "Alert\n-----\n\nIf edit files from VS Code, does not reflect changes.  \nIf edit and commit files, then changes should be seen?"
+            "text": "Alert\n-----\n\nAlso known as banners, displays an important, succinct message, and provides actions for users to address (or dismiss the banner). It requires a user action to be dismissed.\n\nBanners should be displayed at the top of the screen, below a top app bar. They’re persistent and nonmodal, allowing the user to either ignore them or interact with them at any time. Only one banner should be shown at a time."
         },
         {
             "type": "snippet",
@@ -39,11 +39,11 @@
         },
         {
             "type": "text",
-            "text": "Card\n----\n\nlet's try changing the[[sym-text:height(5a0a0115-4f8b-4bc8-9606-64ec3bbe51fd)]] from component/Logo.js change to 32px."
+            "text": "**Anatomy:**\n\n1\\. Supporting illustration (optional)  \n2\\. Container  \n3\\. Text  \n4\\. Buttons"
         },
         {
             "type": "text",
-            "text": "also change the Headline on [[sym:./components/Logo.js(67f8093b-7e4e-4316-8a1d-6676c5ab76e8)]] to [[sym-text:VaccinePass(056b1769-57c8-47b7-b6bf-b15e9c71a1c0)]] to VaccinePass.\n\nthis also applies to the title in file [[sym:./components/Page.js(a0ad35cc-a726-48f9-a127-a7d88170b7d1)]] [[sym-text:title(afd4cee2-abdb-4c32-ab07-da78f336a60e)]] \\`\n\nthen show [[sym-text:display(c9b1f988-59b7-4e80-80e1-927fa964e89e)]] from display [[sym-text:none(f66abaa5-151f-447c-af29-cdc00ff0bfab)]] \\` to \"show\"."
+            "text": "Card\n----\n\nCards contain content and actions about a single subject. They are surfaces that display content and actions on a single topic.\n\nThey should be easy to scan for relevant and actionable information. Elements, like text and images, should be placed on them in a way that clearly indicates hierarchy."
         },
         {
             "type": "snippet",
@@ -59,6 +59,10 @@
             "firstLineNumber": 11,
             "path": "components/Card.js",
             "comments": []
+        },
+        {
+            "type": "text",
+            "text": "The card container is the only required element in a card. All other elements shown here are optional. Card layouts can vary to support the types of content they contain. The following elements are commonly found among that variety.\n\n**Anatomy:**\n\n*   **Container**  \n    Card containers hold all card elements, and their size is determined by the space those elements occupy. Card elevation is expressed by the container.\n    \n\n*   **Thumbnail** \\[optional\\]  \n    Cards can include thumbnails to display an avatar, logo, or icon.\n    \n\n*   **Header** **text** \\[optional\\]  \n    Header text can include things like the name of a photo album or article.\n    \n\n*   **Subhead** \\[optional\\]  \n    Subhead text can include text elements such as an article byline or a tagged location.\n    \n*   **Media** \\[optional\\]  \n    Cards can include a variety of media, including photos, and graphics, such as weather icons.\n    \n*   **Supporting** **text** \\[optional\\]  \n    Supporting text include text like an article summary or a restaurant description.\n    \n*   **Buttons** \\[optional\\]  \n    Cards can include buttons for actions.\n    \n*   **Icons** \\[optional\\]  \n    Cards can include icons for actions."
         },
         {
             "type": "text",
@@ -114,70 +118,7 @@
             "comments": []
         }
     ],
-    "symbols": {
-        "67f8093b-7e4e-4316-8a1d-6676c5ab76e8": {
-            "type": "path",
-            "text": "components/Logo.js",
-            "path": "components/Logo.js"
-        },
-        "056b1769-57c8-47b7-b6bf-b15e9c71a1c0": {
-            "symbol": "056b1769-57c8-47b7-b6bf-b15e9c71a1c0",
-            "path": "components/Logo.js",
-            "text": "VaccinePass",
-            "lineNumber": 21,
-            "lineData": "                    VaccinePass",
-            "wordIndex": {
-                "start": 1,
-                "end": 1
-            },
-            "fileBlob": "c8ac236a70a4f3909c2798be2cffcdd1cef6f7de",
-            "type": "generic_text"
-        },
-        "c9b1f988-59b7-4e80-80e1-927fa964e89e": {
-            "symbol": "c9b1f988-59b7-4e80-80e1-927fa964e89e",
-            "path": "components/Alert.js",
-            "text": "display",
-            "lineNumber": 12,
-            "lineData": "    <div id=\"alert\" style={{\"display\": \"default\"}} className=\"bg-red-100 border border-red-400 text-red-700 px-4 py-3 mt-5 rounded relative\" role=\"alert\">",
-            "wordIndex": {
-                "start": 15,
-                "end": 15
-            },
-            "fileBlob": "5183fbe95e16a9fa27c27bab76ebbcdd96cbbdcf",
-            "type": "generic_text"
-        },
-        "f66abaa5-151f-447c-af29-cdc00ff0bfab": {
-            "symbol": "f66abaa5-151f-447c-af29-cdc00ff0bfab",
-            "path": "components/Logo.js",
-            "text": "none",
-            "lineNumber": 13,
-            "lineData": "                        <path d=\"M0,0h24v24H0V0z\" fill=\"none\"/>",
-            "wordIndex": {
-                "start": 15,
-                "end": 15
-            },
-            "fileBlob": "c8ac236a70a4f3909c2798be2cffcdd1cef6f7de",
-            "type": "generic_text"
-        },
-        "a0ad35cc-a726-48f9-a127-a7d88170b7d1": {
-            "type": "path",
-            "text": "components/Page.js",
-            "path": "components/Page.js"
-        },
-        "afd4cee2-abdb-4c32-ab07-da78f336a60e": {
-            "symbol": "afd4cee2-abdb-4c32-ab07-da78f336a60e",
-            "path": "components/Page.js",
-            "text": "title",
-            "lineNumber": 11,
-            "lineData": "        <title>CovidPass</title>",
-            "wordIndex": {
-                "start": 2,
-                "end": 2
-            },
-            "fileBlob": "22a75bf3f868dd7d8120b78cace69bb6ac4c4935",
-            "type": "generic_text"
-        }
-    },
+    "symbols": {},
     "file_version": "2.0.2",
     "meta": {
         "app_version": "0.5.0-0",
