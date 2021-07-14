@@ -61,8 +61,22 @@
             "comments": []
         },
         {
+            "type": "image",
+            "src": "https://firebasestorage.googleapis.com/v0/b/swimmio-content/o/repositories%2F8YrlMfpndRSfzIFJGtRl%2F6f517f0b-4e3e-48c1-86cc-719f2c4440a4.png?alt=media&token=8e5503f6-21f9-4412-a545-20b0a4e6dc8c",
+            "width": 50
+        },
+        {
             "type": "text",
-            "text": "The card container is the only required element in a card. All other elements shown here are optional. Card layouts can vary to support the types of content they contain. The following elements are commonly found among that variety.\n\n**Anatomy:**\n\n*   **Container**  \n    Card containers hold all card elements, and their size is determined by the space those elements occupy. Card elevation is expressed by the container.\n    \n\n*   **Thumbnail** \\[optional\\]  \n    Cards can include thumbnails to display an avatar, logo, or icon.\n    \n\n*   **Header** **text** \\[optional\\]  \n    Header text can include things like the name of a photo album or article.\n    \n\n*   **Subhead** \\[optional\\]  \n    Subhead text can include text elements such as an article byline or a tagged location.\n    \n*   **Media** \\[optional\\]  \n    Cards can include a variety of media, including photos, and graphics, such as weather icons.\n    \n*   **Supporting** **text** \\[optional\\]  \n    Supporting text include text like an article summary or a restaurant description.\n    \n*   **Buttons** \\[optional\\]  \n    Cards can include buttons for actions.\n    \n*   **Icons** \\[optional\\]  \n    Cards can include icons for actions."
+            "text": "The card container is the only required element in a card. All other elements shown here are optional. Card layouts can vary to support the types of content they contain. The following elements are commonly found among that variety."
+        },
+        {
+            "type": "text",
+            "text": "**Anatomy:**\n\n*   **Container**  \n    Card containers hold all card elements, and their size is determined by the space those elements occupy. Card elevation is expressed by the container.\n    \n*   **Thumbnail** \\[optional\\]  \n    Cards can include thumbnails to display an avatar, logo, or icon.\n    \n*   **Header** **text** \\[optional\\]  \n    Header text can include things like the name of a photo album or article.\n    \n*   **Subhead** \\[optional\\]  \n    Subhead text can include text elements such as an article byline or a tagged location.\n    \n*   **Media** \\[optional\\]  \n    Cards can include a variety of media, including photos, and graphics, such as weather icons.\n    \n*   **Supporting** **text** \\[optional\\]  \n    Supporting text include text like an article summary or a restaurant description.\n    \n*   **Buttons** \\[optional\\]  \n    Cards can include buttons for actions.\n    \n*   **Icons** \\[optional\\]  \n    Cards can include icons for actions."
+        },
+        {
+            "type": "image",
+            "src": "https://firebasestorage.googleapis.com/v0/b/swimmio-content/o/repositories%2F8YrlMfpndRSfzIFJGtRl%2F1e82251b-648f-44ee-a833-cadd2598e222.png?alt=media&token=e538b30c-5db3-4958-9686-1c4a8a01b1b3",
+            "width": 50
         },
         {
             "type": "text",
