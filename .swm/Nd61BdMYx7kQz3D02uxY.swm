@@ -42,6 +42,11 @@
             "text": "**Anatomy:**\n\n*   Supporting illustration (optional)\n    \n*   Container\n    \n*   Text\n    \n*   Buttons"
         },
         {
+            "type": "image",
+            "src": "https://firebasestorage.googleapis.com/v0/b/swimmio-content/o/repositories%2F8YrlMfpndRSfzIFJGtRl%2Faeb202f0-e6b6-481b-bc4c-4088a0f74d6f.png?alt=media&token=5fdbce8b-9886-4d56-97dd-f8759cb38a02",
+            "width": 50
+        },
+        {
             "type": "text",
             "text": "Card\n----\n\nCards contain content and actions about a single subject. They are surfaces that display content and actions on a single topic.\n\nThey should be easy to scan for relevant and actionable information. Elements, like text and images, should be placed on them in a way that clearly indicates hierarchy."
         },
