@@ -1,0 +1,92 @@
+{
+    "id": "nDsnRF9WXCKa3Ebiqazy",
+    "name": "Dependencies",
+    "content": [
+        {
+            "type": "snippet",
+            "lines": [
+                "         \"node\": \">=10\"",
+                "       },",
+                "       \"funding\": {",
+                "*        \"url\": \"https://github.com/chalk/chalk?sponsor=1\"",
+                "       }",
+                "     },",
+                "     \"node_modules/@next/react-dev-overlay/node_modules/color-convert\": {"
+            ],
+            "firstLineNumber": 170,
+            "path": "package-lock.json",
+            "comments": []
+        },
+        {
+            "type": "snippet",
+            "lines": [
+                " }",
+                " ",
+                " export function decodeData(data) {",
+                "*  data = data.toString('ASCII')",
+                " ",
+                "   if (data.startsWith('HC1')) {",
+                "     data = data.substring(3)"
+            ],
+            "firstLineNumber": 29,
+            "path": "src/decode.js",
+            "comments": []
+        },
+        {
+            "type": "snippet",
+            "lines": [
+                "     this.img1x = img1x",
+                "     this.img2x = img2x",
+                " ",
+                "*    this.raw = rawData",
+                "     this.dark = dark",
+                " ",
+                "     this.name = name"
+            ],
+            "firstLineNumber": 82,
+            "path": "src/payload.js",
+            "comments": []
+        },
+        {
+            "type": "snippet",
+            "lines": [
+                " import {PNG} from 'pngjs'",
+                " import * as PdfJS from 'pdfjs-dist'",
+                " ",
+                "*PdfJS.GlobalWorkerOptions.workerSrc = `https://cdnjs.cloudflare.com/ajax/libs/pdf.js/${PdfJS.version}/pdf.worker.js`",
+                " ",
+                " // Processes a pdf file and returns it as ImageData",
+                " export async function processPdf(file) {"
+            ],
+            "firstLineNumber": 1,
+            "path": "src/process.js",
+            "comments": []
+        },
+        {
+            "type": "snippet",
+            "lines": [
+                " import {PNG} from 'pngjs'",
+                " import * as PdfJS from 'pdfjs-dist'",
+                " ",
+                "*PdfJS.GlobalWorkerOptions.workerSrc = `https://cdnjs.cloudflare.com/ajax/libs/pdf.js/${PdfJS.version}/pdf.worker.js`",
+                " ",
+                " // Processes a pdf file and returns it as ImageData",
+                " export async function processPdf(file) {"
+            ],
+            "firstLineNumber": 1,
+            "path": "src/process.js",
+            "comments": []
+        }
+    ],
+    "symbols": {},
+    "file_version": "2.0.2",
+    "meta": {
+        "app_version": "0.5.0-0",
+        "file_blobs": {
+            "package-lock.json": "9739ded7b028e63fda340507a6da0ae37fdc7821",
+            "src/decode.js": "fe1721343dfd453621a3b14fd77bd7085229b089",
+            "src/payload.js": "6b1921de2ab1bbd887bec05cba6b8d21465d17e4",
+            "src/process.js": "bc640da284ccf52914d2c87d29c495ca13ebbb4a"
+        }
+    }
+}
