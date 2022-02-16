@@ -44,7 +44,7 @@ export default function Home() {
             </p>
           } />
 
-          <Form className="flex-grow" />
+          <Form className="flex-shrink" />
         </div>
       } />
     </>
