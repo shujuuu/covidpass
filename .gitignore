@@ -2,8 +2,7 @@
 
 # dependencies
 /node_modules
-/.pnp
-.bonobo.js
+
 
 # testing
 /coverage
