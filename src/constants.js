@@ -5,7 +5,7 @@ exports.VALUE_TYPES = {
     manufacturers: 'vaccine-mah-manf.json',
 }
 exports.COLORS = {
-    white: 'rgb(255, 255, 255)',
+    white: 'rgb(256, 256, 256)',
     black: 'rgb(0, 0, 0)',
     grey: 'rgb(33, 33, 33)',
     green: 'rgb(27, 94, 32)',
