@@ -100,7 +100,7 @@ export default function Privacy() {
           </p>
           <div className="px-4">
             <ul className="list-disc">
-              <li>Targeted disease</li>
+              <li>Targeted sickness</li>
               <li>Vaccine medical product</li>
               <li>Manufacturer/Marketing Authorization Holder</li>
               <li>Dose number</li>
