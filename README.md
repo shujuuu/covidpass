@@ -23,3 +23,5 @@ Build and run the container
 docker build . -t covidpass
 docker run -t -i -p 3000:3000 covidpass
 ```
+
+test
