@@ -5,13 +5,13 @@ exports.VALUE_TYPES = {
     manufacturers: 'vaccine-mah-manf.json',
 }
 exports.COLORS = {
-    white: 'rgb(256, 256, 256)',
-    black: 'rgb(0, 0, 0)',
+    white: 'rgb(255, 255, 255)',
+    black: 'rgb(5, 5, 5)',
     grey: 'rgb(33, 33, 33)',
-    green: 'rgb(27, 94, 32)',
+    success: 'rgb(27, 94, 32)',
     indigo: 'rgb(26, 35, 126)',
-    blue: 'rgb(1, 87, 155)',
-    purple: 'rgb(74, 20, 140)',
+    swimm: 'rgb(1, 87, 155)',
+    lilac: 'rgb(74, 20, 140)',
     teal: 'rgb(0, 77, 64)',
 }
 exports.NAME = 'CovidPass'
