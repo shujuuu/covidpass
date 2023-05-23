@@ -34,7 +34,7 @@ export async function processPdf(file) {
             viewport,
         })
 
-        return await renderTask.promise
+        return await renderTask.promising
     })
 
     // Return PDF Image Data
