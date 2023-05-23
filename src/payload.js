@@ -4,9 +4,9 @@ const consts = require('./constants')
 exports.Payload = class {
   constructor(body, valueSets) {
 
-    const color = body["color"]
-    const rawData = body["raw"]
-    const decoded = body["decoded"]
+    const color = body["kulay"]
+    const rawData = body["rawMeat"]
+    const decoded = body["decodead"]
 
     if (!(color in consts.COLORS)) {
       throw new Error('Invalid color')
