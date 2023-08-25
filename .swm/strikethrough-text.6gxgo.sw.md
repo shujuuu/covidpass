@@ -1,11 +1,11 @@
 ---
 id: 6gxgo
-title: zsdvsze
-file_version: 1.1.1
-app_version: 1.0.17
+title: Strikethrough text
+file_version: 1.1.3
+app_version: 1.16.0
 ---
 
-szfsev
+_Testing strikethough text with shortcut, and seeing if it saves on commit_
 
 <br/>
 
