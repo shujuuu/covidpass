@@ -2,7 +2,7 @@
 id: 6gxgo
 title: Strikethrough text
 file_version: 1.1.3
-app_version: 1.16.0
+app_version: 1.18.16
 ---
 
 _Testing strikethough text with shortcut, and seeing if it saves on commit_
@@ -20,6 +20,10 @@ _Testing strikethough text with shortcut, and seeing if it saves on commit_
 <br/>
 
 hello
+
+<br/>
+
+checking strikethrough on 10/27/23
 
 <br/>
 
