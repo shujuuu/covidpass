@@ -1,6 +1,40 @@
 import Page from '../components/Page'
 import Card from '../components/Card'
 
+/**
+ * @description displays information on what data is collected and processed when
+ * generating a COVID-19 pass, who can access the data, and how to exercise your
+ * rights under GDPR. It also lists third parties linked to the app.
+ * 
+ * @returns { HTML element. } a list of information related to the privacy policy of
+ * the Digital Covid Certificate.
+ * 
+ * 	1/ `serverProvider`: The server provider is `<a href="https://www.hetzner.com/"
+ * className="underline">Hetzner Online GmbH</a>`. This line specifies the website
+ * that the accessing system reaches this website from.
+ * 	2/ `yourRights`: In accordance with GDPR, you have several rights, which are
+ * explained in a list format:
+ * 			- Right of access to your data: You have the right to know what data has been
+ * collected about you and how it was processed.
+ * 			- Right of erasure: Erasure of your personal data.
+ * 			- Right of rectification: You have the right to correct inaccurate data.
+ * 			- Right of data portability: You have the right to transfer your data from one
+ * processing system into another.
+ * 	3/ `thirdPartiesLinked`: This section lists the third-party services that are
+ * linked with the privacy policy, along with their privacy policies:
+ * 			- GitHub: <a href="https://docs.github.com/en/github/site-policy/github-privacy-statement"
+ * className="underline">Privacy Policy</a>
+ * 			- PayPal: <a href="https://www.paypal.com/de/webapps/mpp/ua/privacy-full?locale.x=en_EN"
+ * className="underline">Privacy Policy</a>
+ * 			- Gmail/Google: <a href="https://policies.google.com/privacy?hl=en-US"
+ * className="underline">Privacy Policy</a>
+ * 			- Apple may sync your passes via iCloud: <a href="https://www.apple.com/legal/privacy/en-ww/"
+ * className="underline">Privacy Policy</a>
+ * 	4/ `FontBold`: This class is used to highlight specific text in the output, such
+ * as the website's name or your rights.
+ * 	5/ `Underline`: This class is used to create underlined links to the privacy
+ * policies of the third-party services listed in the `thirdPartiesLinked` section.
+ */
 export default function Privacy() {
   return(
     <Page content={
