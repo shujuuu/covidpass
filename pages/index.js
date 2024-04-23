@@ -4,6 +4,13 @@ import Form from '../components/Form'
 import Card from '../components/Card'
 import Page from '../components/Page'
 
+/**
+ * @description renders an HTML template containing a NextSeo component and a Page
+ * component, which displays a Card and a Form for users to interact with.
+ * 
+ * @returns { string } a web page containing a Next.js component with an OpenGraph
+ * card and a Form element.
+ */
 export default function Home() {
   return (
     <>

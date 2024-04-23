@@ -10,8 +10,61 @@ import jsQR from "jsqr";
 
 export default Form
 
+/**
+ * @description renders a form for adding a pass to a digital wallet, including a
+ * background color selection and an acceptance check box for the privacy policy.
+ * When the "Add to Wallet" button is clicked, the form's state is dispatched to an
+ * Alert component, then a canvas element is displayed with a spinning animation until
+ * the form's state is updated again.
+ * 
+ * @returns { SVG `<button>` element, which is an HTML element. } a React component
+ * that contains a form for creating a new pass, including fields for name, email,
+ * and background color, and buttons for submitting the form and downloading a QR code.
+ * 
+ * 		- `cards`: This is an array of `Card` components, each representing a step in
+ * the form submission process.
+ * 		- `step`: This is the current step number in the form submission process. The
+ * value ranges from 1 to 4.
+ * 		- `heading`: This is the text content for the heading of each card. It is a
+ * string and can be modified accordingly.
+ * 		- `content`: This is the inner content of each card. It is also an array of
+ * elements, each representing a part of the form content.
+ * 		- `buttons`: This is an array of button components, each representing a form
+ * submission action.
+ * 		- `id`: This is the unique identifier for each card, used to track its position
+ * in the form submission process.
+ * 		- `name`: This is the name attribute value for each card, which is used to
+ * identify the corresponding form field.
+ * 		- `value`: This is the initial value of each card's form field, which can be
+ * modified by the user during the form submission process.
+ * 		- `required`: This is a boolean attribute value that indicates whether the form
+ * field is required or not.
+ * 		- `step`: This is a number that represents the current step number in the form
+ * submission process. It can be used to determine the order of the cards and their
+ * respective contents.
+ * 		- `totalSteps`: This is the total number of steps in the form submission process.
+ * It can be used to determine the last step of the form submission process.
+ * 		- `showCardNumber`: This is a boolean attribute value that determines whether
+ * the card number should be displayed or not.
+ * 		- `animate`: This is a boolean attribute value that determines whether the
+ * animation should be played or not.
+ * 
+ * 	In summary, the `Form` function returns an array of `Card` components, each
+ * representing a step in the form submission process. The properties and attributes
+ * of each card can be modified accordingly to represent different parts of the form
+ * content.
+ */
 function Form() {
 
+    /**
+     * @description returns a promise that resolves to the contents of a file in an array
+     * buffer format after reading it asynchronously using the FileReader API.
+     * 
+     * @param { object } file - file to be read as an ArrayBuffer using the `FileReader`
+     * API.
+     * 
+     * @returns { array } an ArrayBuffer representing the contents of the specified file.
+     */
     function readFileAsync(file) {
         return new Promise((resolve, reject) => {
             let reader = new FileReader();
@@ -150,12 +203,19 @@ function Form() {
         }
     }, [inputFile])
 
+    /**
+     * @description triggers an action related to a file when the button is clicked.
+     */
     async function showFileDialog() {
         inputFile.current.click();
 
     }
 
 
+    /**
+     * @description stops any running camera controls and sets a flag indicating that the
+     * camera view is no longer open.
+     */
     async function hideCameraView() {
         if (globalControls !== undefined) {
             globalControls.stop();
@@ -163,6 +223,10 @@ function Form() {
         setIsCameraOpen(false);
     }
 
+    /**
+     * @description decodes QR codes from a video input device, displaying the camera
+     * stream on a preview element.
+     */
     async function showCameraView() {
         const codeReader = new BrowserQRCodeReader();
 
@@ -191,6 +255,19 @@ function Form() {
 
     return (
         <div>
+            {/**
+             * @description provides a UI for the user to upload a certificate or file and select
+             * a color for their pass. The form then adds the data to the wallet, creating a PDF
+             * or QR code pass for the user.
+             * 
+             * @param { string } className - 12th step form's form class name and is used to add
+             * custom CSS styling to the form elements.
+             * 
+             * @param { string } id - 14-digit pass ID that is being added to the user's wallet.
+             * 
+             * @param { object } onSubmit - button's `onClick` handler, which is called when the
+             * form is submitted by clicking the "Add to Wallet" button.
+             */}
             <form className="space-y-5" id="form" onSubmit={(e) => addToWallet(e)}>
                 <Card step={1} heading="Select Certificate" content={
                     <div className="space-y-5">

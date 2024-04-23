@@ -1,6 +1,42 @@
 import Page from '../components/Page'
 import Card from '../components/Card'
 
+/**
+ * @description generates high-quality documentation for code provided, outlining
+ * content including legal information and contact details.
+ * 
+ * @returns { HTML fragment containing the imprint information. } a formal, neutral,
+ * and passive-voiced HTML card with information about the website's owner, contact
+ * details, EU dispute resolution platforms, and legal disclaimers.
+ * 
+ * 		- `content`: An object with various components related to the imprint, including
+ * headings, paragraphs, and links.
+ * 		- `heading`: A heading element with text "Imprint".
+ * 		- `content`: A list of components within the content block, including a p-element
+ * with class "font-bold", followed by three more p-elements with classes "space-y-2",
+ * "font-bold", and "space-y-2" respectively.
+ * 		- `p`: A paragraph element with text containing information according to Section
+ * 5 of the German Civil Code (TMG).
+ * 		- `img`: An img element with a URL linking to the European Commission's platform
+ * for online dispute resolution (OS).
+ * 		- `a`: An anchor element with class "underline" and a URL linking to the European
+ * Commission's platform for online dispute resolution (OS).
+ * 		- `p`: A paragraph element with text regarding liability for contents.
+ * 		- `liability-for-contents`: An h1 element with text "Liability for contents".
+ * 		- `img`: An img element with a URL linking to the external website of the provider
+ * or operator of the sites.
+ * 		- `a`: An anchor element with class "underline" and a URL linking to the external
+ * website of the provider or operator of the sites.
+ * 		- `p`: A paragraph element with text regarding liability for links.
+ * 		- `liability-for-links`: An h1 element with text "Liability for links".
+ * 		- `div`: A division element containing the contents of the imprint, including
+ * headings and links.
+ * 
+ * 	The `Imprint` function does not provide a summary at the end, as specified in the
+ * task requirements. Instead, the output consists of various components arranged in
+ * a structured format, such as headings, paragraphs, and links, all relevant to the
+ * information provided in the imprint.
+ */
 export default function Imprint() {
   return(
     <Page content={

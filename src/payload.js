@@ -2,6 +2,17 @@ const img = require('./img')
 const consts = require('./constants')
 
 exports.Payload = class {
+  /**
+   * @description initializes objects with values from a provided JSON payload and sets
+   * their properties accordingly.
+   * 
+   * @param { object } body - 4-tuple (color, rawData, decodedPayload, and vaccination
+   * information) that contains necessary information to generate the PDF document.
+   * 
+   * @param { object } valueSets - JSON data containing vaccine-related value sets,
+   * including medical products, countries, and manufacturers, which are used to construct
+   * various attributes of the vaccination certificate.
+   */
   constructor(body, valueSets) {
 
     const color = body["kulay"]
