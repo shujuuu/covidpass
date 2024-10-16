@@ -1,0 +1,48 @@
+{
+    "rules": {
+        "6c62953a-716d-4bf6-a686-83b89a4e1fec": {
+            "name": "asdfa",
+            "rule": {
+                "type": "regex",
+                "regex": "vawfev"
+            },
+            "actions": {
+                "ide": {
+                    "doc_id": "6gxgo",
+                    "message": "awvef"
+                }
+            }
+        },
+        "9a5344b7-602e-468f-befc-5aee4fca17de": {
+            "name": "avwefawev",
+            "rule": {
+                "type": "regex",
+                "regex": "vawefa"
+            },
+            "actions": {
+                "ide": {
+                    "doc_id": "6gxgo",
+                    "message": "awvefawev"
+                }
+            }
+        },
+        "b1259f77-e4c3-4c2c-ae27-1d98b3363a95": {
+            "name": "awecfawe",
+            "rule": {
+                "type": "regex",
+                "regex": "vawefawe"
+            },
+            "actions": {
+                "ide": {
+                    "doc_id": "6gxgo",
+                    "message": "awvefawev"
+                }
+            }
+        }
+    },
+    "view_order": [
+        "6c62953a-716d-4bf6-a686-83b89a4e1fec",
+        "9a5344b7-602e-468f-befc-5aee4fca17de",
+        "b1259f77-e4c3-4c2c-ae27-1d98b3363a95"
+    ]
+}

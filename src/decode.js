@@ -28,7 +28,7 @@ export function toBuffer(ab) {
   return buf
 }
 
-export function decodeData(data) {
+export function test(data) {
   data = data.toString('ASCII')
 
   if (data.startsWith('HC1')) {
