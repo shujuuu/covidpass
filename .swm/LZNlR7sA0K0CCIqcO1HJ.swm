@@ -1,0 +1,84 @@
+{
+    "id": "LZNlR7sA0K0CCIqcO1HJ",
+    "name": "Testing status review",
+    "content": [
+        {
+            "type": "snippet",
+            "lines": [
+                "     manufacturers: 'vaccine-mah-manf.json',",
+                " }",
+                " exports.COLORS = {",
+                "*    white: 'rgb(255, 255, 255)',",
+                "*    black: 'rgb(0, 0, 0)',",
+                "*    grey: 'rgb(33, 33, 33)',",
+                "*    green: 'rgb(27, 94, 32)',",
+                "*    indigo: 'rgb(26, 35, 126)',",
+                "*    blue: 'rgb(1, 87, 155)',",
+                "*    purple: 'rgb(74, 20, 140)',",
+                "*    teal: 'rgb(0, 77, 64)',",
+                " }",
+                " exports.NAME = 'CovidPass'",
+                " exports.PASS_IDENTIFIER = 'pass.de.marvinsextro.covidpass' // WELL KNOWN"
+            ],
+            "firstLineNumber": 5,
+            "path": "src/constants.js",
+            "comments": []
+        },
+        {
+            "type": "snippet",
+            "lines": [
+                "   data = cbor.decode(typedArrayToBuffer(data))",
+                " ",
+                "   if (!Array.isArray(data)) {",
+                "*    throw new Error('Expecting Array')",
+                "   }",
+                " ",
+                "   if (data.length !== 4) {"
+            ],
+            "firstLineNumber": 51,
+            "path": "src/decode.js",
+            "comments": []
+        },
+        {
+            "type": "snippet",
+            "lines": [
+                "   let payload",
+                " ",
+                "   try {",
+                "*    payload = new Payload(data, valueSets)",
+                "   } catch (e) {",
+                "     return undefined",
+                "   }"
+            ],
+            "firstLineNumber": 84,
+            "path": "src/pass.js",
+            "comments": []
+        },
+        {
+            "type": "snippet",
+            "lines": [
+                " ",
+                "   const close = function() {",
+                "     const alert = document.getElementById('alert')",
+                "*    alert.setAttribute('style', 'display: none;')",
+                "   }",
+                " ",
+                "   return("
+            ],
+            "firstLineNumber": 5,
+            "path": "components/Alert.js",
+            "comments": []
+        }
+    ],
+    "symbols": {},
+    "file_version": "2.0.2",
+    "meta": {
+        "app_version": "0.5.0-0",
+        "file_blobs": {
+            "src/constants.js": "af4c3628909bff04bcf0102bbd0adbf575d81a73",
+            "src/decode.js": "fe1721343dfd453621a3b14fd77bd7085229b089",
+            "src/pass.js": "df54ecf77ae409038c28e4c126f9c8e11549c7e8",
+            "components/Alert.js": "a7bfad37bfe0d6913c1317b3ea344a6c67fe3404"
+        }
+    }
+}
